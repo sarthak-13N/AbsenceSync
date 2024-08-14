@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AbsenceSync</title>
+</head>
+<style>
+    *{
+        text-decoration: none;
+    }
+    .navbar{
+        background-color: #1e2a5a;
+        height: 2cm;
+        left: 0;
+        padding-left: 12px;
+        padding-right: 15px;
+    }
+    .navdiv{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+       .logo::after{
+            content: "";
+            
+    font-weight: 600;
+    font-size: 36px;
+    color: rgb(251, 251, 251);
+    animation-name: animatingtext;
+    animation-duration: 1200ms;
+    animation-iteration-count: infinite;
+position: fixed;
+    /* justify-content: center; */
+display: flex;
+align-items: center;
+top: 2%;
+
+        }
+        @keyframes animatingtext {
+    0%{content: "";}
+    10%{content: "Ab";}
+    25%{content: "Absen";}
+    50%{content: "Absence";}
+    55%{content: "AbsenceSy";}
+    60%{content: "AbsenceSync";}
+    65%{content: "AbsenceSync.";}
+    70%{content: "AbsenceSync..";}
+    100%{content: "AbsenceSync...";}
+
+}
+    li{
+        list-style: none;
+        display: inline-block;
+    }
+    li a{
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        margin-right: 25px;
+    }
+   
+    .navbar a:hover{
+        background-color: rgb(16, 33, 36);
+        background-size: 2px;
+        height: 1cm;
+        overflow: hidden;
+    }
+   .nav svg{
+    background-color: #1e2a5a;
+
+   }
+   .button a:hover{
+    background-color: aqua;
+
+   }
+
+.liv {
+    width: 200px; 
+    height: 200px; /* Set your desired height */
+    border: 3px solid #1e2a5a; /* Add a border */
+    padding: 0; /* Remove padding to avoid shifting the text */
+    margin: 20px; /* Add margin around the box */
+    background-color: rgb(253, 253, 253);
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    border-radius: 20%;
+    box-shadow: 19px 20px 20px;
+    display: flex; /* Add Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+.liv:hover{
+    color: #1e2a5a;
+}
+.leave{
+    width: 200px; 
+        height: 200px; /* Set your desired height */
+        border: 3px solid #1e2a5a; /* Add a border */
+        padding: 90px; /* Add some padding inside the box */
+        margin: 20px; /* Add margin around the box */
+        background-color: rgb(253, 253, 253);
+        position: absolute;
+       
+        top: 25%;
+        left: 5%;
+        border-radius: 20%;
+        box-shadow: 19px 20px 20px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;      
+}
+.leave:hover{
+    color: #1e2a5a;
+}
+
+.calender{
+    width: 200px; /* Set your desired width */
+        height: 200px; /* Set your desired height */
+        border: 3px solid #1e2a5a; /* Add a border */
+        padding: 90px; /* Add some padding inside the box */
+        margin: 20px; /* Add margin around the box */
+        background-color: rgb(253, 253, 253);
+        position: absolute;
+        top: 25%;
+        left: 51%;
+        border-radius: 20%;
+        box-shadow: 20px 15px 20px ;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+.calender:hover{
+    color: #1e2a5a;
+}
+
+.history{
+    width: 200px; /* Set your desired width */
+        height: 200px; /* Set your desired height */
+        border: 3px solid #1e2a5a; /* Add a border */
+        padding: 90px; /* Add some padding inside the box */
+        margin: 20px; /* Add margin around the box */
+        background-color: rgb(253, 253, 253);
+        position: absolute;
+       
+        top: 25%;
+        left: 28%;
+        border-radius: 20%;
+        box-shadow: 20px 15px 20px ;  
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+}
+.history:hover{
+    color: #1e2a5a;
+}
+.request{
+    width: 200px; /* Set your desired width */
+        height: 200px; /* Set your desired height */
+        border: 3px solid #1e2a5a; /* Add a border */
+        padding: 90px; /* Add some padding inside the box */
+        margin: 20px; /* Add margin around the box */
+        background-color: rgb(253, 253, 253);
+        position: absolute;
+       
+        top: 25%;
+        left: 75%;
+        border-radius: 20%;
+        box-shadow: 20px 15px 20px ; 
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+}
+.request:hover{
+    color: #1e2a5a;
+}
+.footer {
+            position: absolute;
+             top: 99%;
+             width: 97.4%;
+                left: 0%;
+            
+            background-color: #1e2a5a;
+            color: white;
+            padding: 21px;
+            text-align: center;
+            display: flex;
+            justify-content: space-around;
+        }
+        .footer .footer-section {
+            margin: 10px;
+        }
+        .footer h2 {
+            margin-bottom: 10px;
+        }
+        .footer p {
+            margin: 5px 0;
+        }
+.body {
+    background-image: url('https://www.cflowapps.com/wp-content/uploads/2018/07/leave-management-process.png');
+    background-size: cover; /* Optional: Adjusts the image to cover the entire element */
+    background-repeat: no-repeat; /* Optional: Prevents the image from repeating */
+    background-position: absolute; /* Optional: Centers the image */
+
+    flex: 1;
+}
+</style>
+
+<body class="body">   
+    <nav class="navbar">
+        <div class="navdiv">
+         <div class="logo"></div>
+       <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="user.login.html">Login</a></li>
+      
+        <li><a href="#">Profile <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+          </svg></a></li>
+       
+      
+        
+        </ul>
+        </div>
+    
+        <a href="LeaveRequest.HTML"> <button class="liv" style="font-size: x-large;"> Request Leave</button></a>
+        <br><br><br>
+        <div>
+           <a href="">
+      <button class="calender" style="font-size: 150%;"> 
+    Leave Calender
+      </button>
+    </a> 
+    </div>
+        <br><br>
+        <a href="">
+<button class="history"  style="font-size: 150%;"> 
+  Leave History </button></a>
+<br><br><br>
+<a href="Company.html">
+<button class="request" style="font-size: 150%;">Company</button></a>
+
+<footer class="footer">
+    <div class="footer-section">
+        <h2>Contact</h2>
+        <p>Email: bhagyalaxmib2004j2@gmail.com</p>
+        <p>Phone: 9731872377</p>
+    </div>
+    <div class="footer-section">
+        <h2>About</h2>
+        <p>We the student of YMC designed this website of AbsenceSync <br>which is a comprehensive tool designed to streamline the process of managing employee leave requests</p>
+    </div>
+    <div class="footer-section">
+        <h2>Address</h2>
+        <p>Yashwantrao Mohite College of Arts, Science and Commerce, Erandwane</p>
+    </div>
+</footer>
+</body>
+</html>

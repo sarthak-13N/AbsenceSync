@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+.about-section{
+    /* background-image: url('https://www.stunningmesh.com/wp-content/uploads/Impressive-About-Us-Page.jpg'); */
+    top: 5%;
+    background: transparent;
+    /* background: black; */
+        background-size: cover;
+        /* background-position: center; */
+        height: 100vh; /* Adjust as needed */
+        width: 100%;
+    
+    
+}
+/* .about-section {
+    padding: 10px;
+    text-align: center;
+    background-color: #f4f4f4;
+    height: 8cm;
+    width: 14cm;
+} */
+/* h1 img{
+    align-items: left;
+
+    height: 8cm;
+    width: 15cm;
+} */
+.para{
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 10%;
+   position: absolute;
+   left: 0%;
+    font-size: 150%;
+    text-align: center;
+    /* font-style: italic; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: azure;
+    font-weight: 100;
+
+    border-radius: 10px 10px 10px 10px;
+}
+.container {
+    position: absolute;
+    top: 35%;
+    padding: 10px;
+ align-content: center;
+ /* font-size: 25px; */
+}
+.h2{
+    font-size: 50px;
+    text-align: center;
+
+}
+.team {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.card {
+    background-color: white;
+    padding: 20px;
+    margin: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+.card h2 {
+
+    margin: 10px 0;
+}
+.card p {
+    color: grey;
+}
+.p{
+    background-color: rgb(255, 244, 228);
+}
